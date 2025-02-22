@@ -1,0 +1,54 @@
+header{
+    background-color: #96958a;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+body{
+    background-color: #dbddb4;
+}
+
+
+.imagem{
+   text-align: center;
+}
+
+.paragrafo-um{
+    font-size: large;
+   color: black;
+   text-align: center;
+}
+
+.paragrafo-dois{
+   font-size: large;
+   color: black;
+   text-align: center;
+}
+
+.paragrafo-tres{
+   font-size: large;
+   color: black;
+   text-align: center;
+}
+
+.emoticons{
+    text-align: center;
+    font-size: large;
+}
+
+.botao{
+    padding: 50px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #76877d;
+    padding: 50px;
+}
+
+
+.localizacao{
+    text-align: center;
+}
