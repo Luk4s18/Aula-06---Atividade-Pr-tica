@@ -1,54 +1,86 @@
-header{
+header {
     background-color: #96958a;
     text-align: center;
     color: aliceblue;
     padding: 20px;
+    display: flex;
+    /* deixa o conteudo mais flexivel deixando-os lado a lado*/
+    justify-content: center;
+    /*justifica o conteudo ao centro*/
+    gap: 15px;
+    /*DA ESPAÇO ENTRE OS ITENS*/
+    align-items: center;
+    /*ALINHA OS ITENS AO CENTRO*/
 }
 
-body{
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header img {
+    width: 60px;
+}
+
+body {
     background-color: #dbddb4;
 }
 
 
-.imagem{
-   text-align: center;
-}
-
-.paragrafo-um{
-    font-size: large;
-   color: black;
-   text-align: center;
-}
-
-.paragrafo-dois{
-   font-size: large;
-   color: black;
-   text-align: center;
-}
-
-.paragrafo-tres{
-   font-size: large;
-   color: black;
-   text-align: center;
-}
-
-.emoticons{
+.imagens {
     text-align: center;
-    font-size: large;
+    display: flex;
+    /* deixa o conteudo mais flexivel deixando-os lado a lado*/
+    justify-items: center;
+    /*justifica o conteudo ao centro*/
+    gap: 15px;
+    /*DA ESPAÇO ENTRE OS ITENS*/
+    align-items: center;
+    /*ALINHA OS ITENS AO CENTRO*/
 }
 
-.botao{
-    padding: 50px;
+.imagem img {
+    width: 500px;
+}
+
+.paragrafo-um {
+    font-size: large;
+    color: black;
     text-align: center;
 }
 
-footer{
+.paragrafo-dois {
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+
+.paragrafo-tres {
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+
+.emoticons {
+    text-align: center;
+    font-size: large;
+    font-size: 130px;
+}
+
+.botao {
+    padding: 300px;
+    background-size: cover;
+    text-align: center;
+    background-color: #96958a;
+    background-image: url(imagens/bebendo\ café.jpg) /*posição da imagem*/
+}
+
+footer {
     text-align: center;
     background-color: #76877d;
     padding: 50px;
 }
 
 
-.localizacao{
+.localizacao {
     text-align: center;
 }
