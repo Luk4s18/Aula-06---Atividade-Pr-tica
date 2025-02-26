@@ -26,7 +26,7 @@ body {
 }
 
 
-.imagens {
+.imagem {
     text-align: center;
     display: flex;
     /* deixa o conteudo mais flexivel deixando-os lado a lado*/
@@ -67,11 +67,26 @@ body {
 }
 
 .botao {
-    padding: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 250px;
     background-size: cover;
-    text-align: center;
+    /*preenchimento de imagem*/
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    /*centralização da imagem*/
     background-color: #96958a;
-    background-image: url(imagens/bebendo\ café.jpg) /*posição da imagem*/
+    background-image: url(imagens/bebendo\ café.jpg)
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.171);
+    padding: 20px;
+    font-size: medium;
+    color: aliceblue;
+    border-radius: 10px;
+    /*arredonda o botão*/
 }
 
 footer {
@@ -80,7 +95,11 @@ footer {
     padding: 50px;
 }
 
-
+footer i{
+    font-size: 25px;
+    color: black;
+    flex-direction: column;
+}
 .localizacao {
     text-align: center;
 }
