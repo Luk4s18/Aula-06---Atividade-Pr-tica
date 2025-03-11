@@ -3,44 +3,77 @@
 
 /* estilizando o header */
 
-header{
+header {
     padding: 25px;
     background-color: #2c2b26;
     color: aliceblue;
-    display: flex; /*tornando os itens lado a lado*/
-    justify-content: center; /*justifica o conteudo ao centro*/
-    gap: 40px; /*espaço entre os elementos*/
-    align-items: center; /*responsavel por alinhar verticalmente os itens*/
+    display: flex;
+    /*tornando os itens lado a lado*/
+    justify-content: center;
+    /*justifica o conteudo ao centro*/
+    gap: 40px;
+    /*espaço entre os elementos*/
+    align-items: center;
+    /*responsavel por alinhar verticalmente os itens*/
 }
 
 header img {
-font-size: 60px; /* tamanho do icone */
-color: aliceblue;
-/* cor do icone */
-width: 70px; /*tamanho da imagem*/
+    font-size: 60px;
+    /* tamanho do icone */
+    color: aliceblue;
+    /* cor do icone */
+    width: 70px;
+    /*tamanho da imagem*/
 }
 
-header h1{
-    color: aliceblue; /*cor da letra*/
-    font-family: "Libre Baskerville", serif; /*fonte da letra*/
+header h1 {
+    color: aliceblue;
+    /*cor da letra*/
+    font-family: "Libre Baskerville", serif;
+    /*fonte da letra*/
 }
 
-    body{
-        background-color: #738c79;
-    }
+body {
+    background-color: #738c79;
+}
+
+
+.list-menu ul {
+    display: flex;
+    /*alteração da lista nao ordenada (ELEMENTO PAI)*/
+    justify-content: center;
+    /*tornando as (li) flex/lado a lado*/
+    gap: 20px;
+    /*espaço entre as (li)*/
+}
+
+.list-menu ul li {
+    /*ALteração da lista nao ordenada (ELEMENTO FILHO)*/
+    list-style: none;
+    /*Removendo o estilo de lista aplicada (bolinha)*/
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    /*remoção do sublinhado (decoração de texto nenhuma)*/
+    color: #ecbe13;
+}
 
 /* FIM DO CABEÇALHO E INICIO DA PROXIMA SESSAO */
 
 .sessao01 {
-    padding: 160px; /*preenchimento/tamanho*/
-    background-color: #738c79; /*cor de fundo*/
-    display: flex; /*torna os iten lado a lado*/
+    padding: 160px;
+    /*preenchimento/tamanho*/
+    background-color: #738c79;
+    /*cor de fundo*/
+    display: flex;
+    /*torna os iten lado a lado*/
     justify-content: center;
     align-items: center;
     gap: 60px;
 }
 
-.sessao01 span{
+.sessao01 span {
     color: darkgreen;
     font-size: 40px;
 }
@@ -51,56 +84,86 @@ header h1{
 }
 
 
-.sessao01 p{
-color: aliceblue; 
-font-size: 25px;
-font-family:  "Libre Baskerville", serif
-};
+.sessao01 p {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+}
+
+
 
 
 /* FIM DA PRIMEIRA SESSAO E INICIO DA PROXIMA SESSAO */
 
-
 .sessao02 {
-    background-color: #2c2b26;
-    padding: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    flex-direction: column;
+    background-color: #ec0b74;
+    padding: 180px;
 }
 
-.sessao02 i{
-    font-size: 50px;
-    color: #2c2b26;
-}
-
-
-.sessao02 p{ 
-    color: aliceblue; /*cor da letra*/
-    font-size: 30px; /* tamanho do icone */
-    font-family:  "Libre Baskerville", serif; /*fonte da letra*/
-}
 
 /* FIM DA SEGUNDA SESSAO E INICIO DA PROXIMA SESSAO */
 
 
-.sessao03{
+.sessao03 {
     padding: 200px;
-    background-image: url(imagens07/Imagem\ Botão.jpg); /*uploading de imagem*/
-    background-position: center; /*posição da imagem*/
-    background-size: cover; /*preenchimento da imagem*/
-    background-repeat: no-repeat; /*desabilitando a repetição da imagem*/
-    background-attachment: fixed; /*mantem a imagem fixa de fundo*/
+    background-image: url(imagens07/Homem\ de\ ferro\ fundo\ botao.jpg);
+    /*uploading de imagem*/
+    background-position: center;
+    /*posição da imagem*/
+    background-size: cover;
+    /*preenchimento da imagem*/
+    background-repeat: no-repeat;
+    /*desabilitando a repetição da imagem*/
+    background-attachment: fixed;
+    /*mantem a imagem fixa de fundo*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.sessao03 button{
+.sessao03 button {
     padding: 8px;
     width: 150px;
     background-color: #ecbe13;
+}
+
+
+/* final da terceira sessao e inicio do footer */
+
+
+.sessao04 {
+    padding: 150px;
+    background-color: #2c2b26;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.sessao04 div {
+    width: 300px;
+    height: 300px;
+    background-color: #ecbe13;
+}
+
+footer {
+    padding: 25px;
+    background-color: black;
+
+    text-align: center;
+}
+
+footer p {
+    color: #ecbe13;
+    /*cor da letra*/
+    font-size: 25px;
+    /*tamanho da letra*/
+}
+
+
+footer i {
+    color: #ecbe13;
+    /*cor do icone*/
+    font-size: 20px;
+    /*tamanho do icone*/
 }
