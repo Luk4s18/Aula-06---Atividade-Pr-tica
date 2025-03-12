@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
 
 
 /* estilizando o header */
@@ -96,9 +100,26 @@ body {
 /* FIM DA PRIMEIRA SESSAO E INICIO DA PROXIMA SESSAO */
 
 .sessao02 {
-    background-color: #ec0b74;
+    background-color: #ecbd13a9;
     padding: 180px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
 }
+
+.sessao02 i {
+    font-size: 50px;
+    color: #738c79;
+}
+
+.sessao02 p{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+}
+
+
 
 
 /* FIM DA SEGUNDA SESSAO E INICIO DA PROXIMA SESSAO */
@@ -143,7 +164,40 @@ body {
 .sessao04 div {
     width: 300px;
     height: 300px;
-    background-color: #ecbe13;
+    background-color: rgba(128, 128, 128, 0.596);
+    text-align: center;
+    padding: 15px;
+}
+
+
+.div-01 i {
+    color: #ecbe13;
+}
+
+.div-01 p{
+font-size: 17px;
+color: white;
+font-weight: 700; /*PESO DA FONT*/
+line-height: 20px; /*DISTANCIA ENTRE AS LINHAS*/
+
+}
+
+
+.div-02 {
+    background-image: url(imagens07/Fundo\ 1\ div.jpg);
+}
+
+
+.div-03 img{
+width: 100px;
+height: 100px;
+}
+
+.div-03 p{
+    font-size: 17px;
+    color: white;
+    font-weight: 700; /*PESO DA FONT*/
+    line-height: 20px; /*DISTANCIA ENTRE AS LINHAS*/
 }
 
 footer {
@@ -166,4 +220,5 @@ footer i {
     /*cor do icone*/
     font-size: 20px;
     /*tamanho do icone*/
+    text-decoration: none;
 }
